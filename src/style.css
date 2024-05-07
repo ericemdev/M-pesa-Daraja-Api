@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root{
+    /* background-color: #15211f; */
+}
+@media screen and (min-width: 768px) {
+    :root {
+      margin-left: 15%;
+      margin-right: 15%;
+      background-color: #15211F;
+    }
+}  
 .contain {
     @apply container mx-auto px-4 flex flex-col items-center justify-center;
 }

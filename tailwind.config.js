@@ -2,13 +2,22 @@ module.exports = {
   content: ["./src/**/*.{svelte,js,css}"],
   theme: {
     extend: {
-      // todo update your theme config
       colors: {
-        primary: "#db4938",
-        secondary: "#3e47ff",
-        fade: "#fee2e2"
-      }
+        primary: "#15211F",
+        secondary: "#3a31da",
+        fade: "#fefe22",
+        bgw: "#3a31da",
+        bgb: "#f1f3ff"
+      },
+
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'] ,
+        'roboto': ['Roboto', 'sans-serif']
+      },
     },
   },
   plugins: [],
+  variants: {
+    display: ["group-hover"],
+  },
 }
