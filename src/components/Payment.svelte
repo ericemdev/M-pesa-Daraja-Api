@@ -94,7 +94,7 @@
 <main>
 
   <div class="flex justify-center pt-4">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="green" class="w-10 h-10">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="green" class="w-8 h-8">
       <path fill-rule="evenodd" d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0Zm-5-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM8 9c-1.825 0-3.422.977-4.295 2.437A5.49 5.49 0 0 0 8 13.5a5.49 5.49 0 0 0 4.294-2.063A4.997 4.997 0 0 0 8 9Z" clip-rule="evenodd" />
     </svg>
     
@@ -102,7 +102,6 @@
     <div class="text-center p-4">
         <div><span class="font-extrabold"></span></div>
         <div class="text-lg font-bold">${usd.toFixed(2)} USDC</div>
-        <div>KSh{kes.toFixed(2)} KES</div>
     </div>
     
     <div class="grid grid-cols-3 gap-4 p-4">
